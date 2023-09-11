@@ -65,7 +65,7 @@ fun main() {
     if (scope.isNotEmpty()) {
         content.append("(${scope})")
     }
-    content.append(":")
+    content.append(": ")
     content.append(subject)
 
     if (body.isNotEmpty()) {
